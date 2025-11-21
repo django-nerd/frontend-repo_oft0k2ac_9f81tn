@@ -22,12 +22,12 @@ export default function Hero() {
                   Real-time prices, deep analytics, and a modern trading experience. Built for speed, trust, and scale.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <button className="pointer-events-auto inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 px-5 py-3 text-sm font-semibold text-black shadow-[0_10px_30px_-10px_rgba(34,197,94,0.6)]">
+                  <a href="#trade" className="pointer-events-auto inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 px-5 py-3 text-sm font-semibold text-black shadow-[0_10px_30px_-10px_rgba(34,197,94,0.6)]">
                     Launch App <ArrowRight className="h-4 w-4" />
-                  </button>
-                  <button className="pointer-events-auto inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10">
+                  </a>
+                  <a href="#markets" className="pointer-events-auto inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10">
                     View Markets
-                  </button>
+                  </a>
                 </div>
 
                 <div className="mt-8 grid grid-cols-3 gap-6 max-w-lg">
